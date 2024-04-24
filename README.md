@@ -1,7 +1,8 @@
-#  JavaScript x Webpack (Library Boilerplate)
+# TypeScript x Webpack (Library Boilerplate)
 
 A starter pack to develop your JS library with:
-- ⚙️ ES6 module
+
+- ⚙️ TypeScript
 - ⚙️ Webpack with HRM ready
 - ⚙️ SCSS
 - ⚙️ Separated dev and public server
