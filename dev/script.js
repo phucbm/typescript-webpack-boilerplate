@@ -1,17 +1,17 @@
 // public styles
-import '@viivue/atomic-css';
-import 'honcau';
+import '@viivue/atomic-css'
+import 'honcau'
 
 // private style
-import './style.scss';
+import './style.scss'
 
 // source script
-import '@/_index';
+import '@/_index'
 
 // import package info
-const packageInfo = require('../package.json');
+const packageInfo = require('../package.json')
 
 /**
  * Lib usage
  */
-MyInstance.init();
+window.MyClass.init()
