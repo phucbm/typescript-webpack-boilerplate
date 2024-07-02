@@ -16,7 +16,7 @@ Output formats:
 ## Todos
 
 1. Update `package.json` with your library names.
-2. Library script start with `/src/_index.js`, **do not rename this file**.
+2. Library script start with `/src/_index.ts`, **do not rename this file**.
 3. Create your dev site in folder `/dev`.
 
 ## Deployment

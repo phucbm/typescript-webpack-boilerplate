@@ -1,8 +1,8 @@
 {
   "name": "your-project-name",
   "outputFilename": "your-project-name",
-  "prettyName": "MyClass - Webpack Library Boilerplate",
-  "codeName": "MyClass",
+  "prettyName": "MyInstance - Webpack Library Boilerplate",
+  "codeName": "MyInstance",
   "version": "0.0.1",
   "description": "A boilerplate to build JavaScript library with ES6 module and UMD version.",
   "homepage": "https://github.com/phucbm/js-webpack-boilerplate",
@@ -22,7 +22,7 @@
   "main": "./dist/your-project-name.module.js",
   "license": "MIT",
   "scripts": {
-    "dev": "npx tsc --watch & webpack serve --config config/webpack.dev.js",
+    "dev": "webpack serve --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.build.js",
     "prod-umd": "cross-env TARGET=umd webpack --config config/webpack.prod.js",
     "prod-umd-min": "cross-env TARGET=umd MIN=yes webpack --config config/webpack.prod.js",
@@ -53,7 +53,7 @@
     "style-loader": "^3.3.0",
     "terser-webpack-plugin": "^5.3.1",
     "ts-loader": "^9.5.1",
-    "typescript": "^5.4.4",
+    "typescript": "^5.5.2",
     "webpack": "^5.58.2",
     "webpack-cli": "^4.9.0",
     "webpack-dev-server": "^4.3.1",

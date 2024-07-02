@@ -1,28 +1,33 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    // ECMAScript target version (ES5, ES6, ES2015, etc.)
-    "module": "CommonJS",
-    // Module code generation (CommonJS, ES6, AMD, etc.)
-    "outDir": "./src",
-    // Output directory for compiled JavaScript files
-    "rootDir": "./src",
-    // Root directory for TypeScript source files
-    "strict": true,
-    // Enable all strict type-checking options
+    "target": "es6",
+    "module": "es6",
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
     "esModuleInterop": true,
-    // Enable interoperability with CommonJS/ESM modules
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    // Enforce consistent casing in file names
-    "skipLibCheck": true
-    // Skip type checking of declaration files
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*"
   ],
-  // Files to be included in the compilation
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist",
+    "build"
   ]
-  // Files to be excluded from the compilation
 }
